@@ -1,12 +1,12 @@
 {
-    "name": "getpop/tags-wp",
+    "name": "getpop/categories-wp",
     "type": "library",
-    "description": "Implementation for WordPress of contracts from package \"Tags\"",
+    "description": "Implementation for WordPress of contracts from package \"Categories\"",
     "keywords": [
         "PoP",
-        "tags-wp"
+        "categories-wp"
     ],
-    "homepage": "https://github.com/PoPSchema/tags-wp",
+    "homepage": "https://github.com/PoPSchema/categories-wp",
     "license": "MIT",
     "authors": [
         {
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/tags": "dev-master",
+        "getpop/categories": "dev-master",
         "getpop/taxonomies-wp": "dev-master",
-        "getpop/migrate-tags-wp": "dev-master"
+        "getpop/migrate-categories-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=7.0",
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\TagsWP\\": "src"
+            "PoP\\CategoriesWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\TagsWP\\": "tests"
+            "PoP\\CategoriesWP\\": "tests"
         }
     },
     "scripts": {

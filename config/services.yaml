@@ -1,4 +1,4 @@
 services:
-    tag_type_api:
-        class: \PoP\TagsWP\TypeAPIs\TagTypeAPI
+    category_type_api:
+        class: \PoP\CategoriesWP\TypeAPIs\CategoryTypeAPI
         public: true

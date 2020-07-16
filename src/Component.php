@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\TagsWP;
+namespace PoP\CategoriesWP;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
@@ -18,7 +18,7 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\Tags\Component::class,
+            \PoP\Categories\Component::class,
             \PoP\TaxonomiesWP\Component::class,
         ];
     }
@@ -26,7 +26,7 @@ class Component extends AbstractComponent
     public static function getDependedMigrationPlugins(): array
     {
         return [
-            'migrate-tags-wp',
+            'migrate-categories-wp',
         ];
     }
 
