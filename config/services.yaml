@@ -1,4 +1,4 @@
 services:
     category_type_api:
-        class: \PoP\CategoriesWP\TypeAPIs\CategoryTypeAPI
+        class: \PoPSchema\CategoriesWP\TypeAPIs\CategoryTypeAPI
         public: true

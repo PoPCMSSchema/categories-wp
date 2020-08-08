@@ -1,5 +1,5 @@
 {
-    "name": "getpop/categories-wp",
+    "name": "pop-schema/categories-wp",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Categories\"",
     "keywords": [
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/categories": "dev-master",
-        "getpop/taxonomies-wp": "dev-master",
-        "getpop/migrate-categories-wp": "dev-master"
+        "pop-schema/categories": "dev-master",
+        "pop-schema/taxonomies-wp": "dev-master",
+        "pop-schema/migrate-categories-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=8.5",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\CategoriesWP\\": "src"
+            "PoPSchema\\CategoriesWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\CategoriesWP\\": "tests"
+            "PoPSchema\\CategoriesWP\\": "tests"
         }
     },
     "scripts": {

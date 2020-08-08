@@ -17,7 +17,7 @@ Implementation for WordPress of contracts from package "Categories"
 Via Composer
 
 ``` bash
-composer require getpop/categories-wp
+composer require pop-schema/categories-wp
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\CategoriesWP\Component::class,
+    \PoPSchema\CategoriesWP\Component::class,
 ]);
 ```
 
@@ -61,17 +61,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/categories-wp.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/categories-wp.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/categories-wp/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/categories-wp.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/categories-wp.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/categories-wp.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/categories-wp/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/categories-wp.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/categories-wp.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/categories-wp.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/categories-wp
-[link-travis]: https://travis-ci.org/getpop/categories-wp
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/categories-wp/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/categories-wp
-[link-downloads]: https://packagist.org/packages/getpop/categories-wp
+[link-packagist]: https://packagist.org/packages/pop-schema/categories-wp
+[link-travis]: https://travis-ci.org/pop-schema/categories-wp
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/categories-wp/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/categories-wp
+[link-downloads]: https://packagist.org/packages/pop-schema/categories-wp
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

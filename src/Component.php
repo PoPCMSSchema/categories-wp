@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace PoP\CategoriesWP;
+namespace PoPSchema\CategoriesWP;
 
 use PoP\Root\Component\AbstractComponent;
 use PoP\Root\Component\YAMLServicesTrait;
@@ -18,8 +18,8 @@ class Component extends AbstractComponent
     public static function getDependedComponentClasses(): array
     {
         return [
-            \PoP\Categories\Component::class,
-            \PoP\TaxonomiesWP\Component::class,
+            \PoPSchema\Categories\Component::class,
+            \PoPSchema\TaxonomiesWP\Component::class,
         ];
     }
 
