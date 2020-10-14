@@ -1,4 +1,7 @@
 services:
-    category_type_api:
-        class: \PoPSchema\CategoriesWP\TypeAPIs\CategoryTypeAPI
+    _defaults:
         public: true
+
+    PoPSchema\Categories\TypeAPIs\CategoryTypeAPIInterface:
+        class: \PoPSchema\CategoriesWP\TypeAPIs\CategoryTypeAPI
+
